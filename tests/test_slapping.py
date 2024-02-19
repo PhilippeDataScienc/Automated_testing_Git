@@ -56,4 +56,3 @@ def test_print(capture_stdout):
 #     assert slap_many(LikeState.empty, 'dl') is LikeState.liked
 #     assert slap_many(LikeState.empty, 'ldd') is LikeState.empty
 #     assert slap_many(LikeState.empty, 'lldd') is LikeState.empty
-#     assert slap_many(LikeState.empty, 'ddl') is LikeState.liked
